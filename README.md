@@ -661,13 +661,13 @@ export_chat_to_pdf(messages: List[dict]) -> BytesIO
 - [x] Export chat as PDF (ReportLab)
 - [x] Animated toast warnings for user errors
 - [x] Dark-mode custom UI with styled chat bubbles
+- [x] Deploy on Streamlit Community Cloud
 - [ ] Add streaming LLM responses (token-by-token display)
 - [ ] Add source page citations directly in the chat response
 - [ ] Support for scanned PDFs via OCR (pytesseract or similar)
 - [ ] Allow switching LLM models from the sidebar (GPT-4, Claude, Mistral, etc.)
 - [ ] Add conversation memory so the LLM remembers previous questions
 - [ ] Support uploading other file types (DOCX, TXT, CSV)
-- [x] Deploy on Streamlit Community Cloud
 - [ ] Add a "which page does this come from?" source attribution toggle
 
 ---
