@@ -405,18 +405,18 @@ pip install -r requirements.txt
 The `requirements.txt` installs the following pinned versions:
 
 ```
-streamlit==1.45.1
-langchain==0.3.25
-langchain-community==0.3.24
-langchain-huggingface==0.2.0
-faiss-cpu==1.11.0
-sentence-transformers==4.1.0
-pypdf==5.5.0
-python-dotenv==1.1.0
-requests==2.32.3
-numpy==2.2.5
-pandas==2.2.3
-reportlab==4.4.0
+langchain
+langchain-community
+langchain-huggingface
+faiss-cpu
+streamlit
+sentence-transformers
+pypdf
+python-dotenv
+requests
+numpy
+pandas
+reportlab
 ```
 
 ---
