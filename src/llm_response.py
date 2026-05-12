@@ -15,7 +15,7 @@ def generate_response(prompt):
     }
 
     data = {
-        "model": "mistralai/mistral-7b-instruct",
+        "model": "meta-llama/llama-3-8b-instruct",
         "messages": [
             {
                 "role": "user",
