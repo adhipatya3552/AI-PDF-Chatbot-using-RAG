@@ -1,0 +1,9 @@
+.env
+
+vector_db/
+
+uploaded_pdfs/
+
+chat_history/
+
+__pycache__/
