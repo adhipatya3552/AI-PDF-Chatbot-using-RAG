@@ -445,7 +445,11 @@ HF_TOKEN=your_huggingface_token_here
 
 ## ▶️ Running the Project
 
+> 🌐 **This project is deployed on Streamlit Cloud — try it live:**
+> **[https://ai-pdf-chatbot-using-rag.streamlit.app/](https://ai-pdf-chatbot-using-rag.streamlit.app/)**
+
 ### Option 1 — Streamlit Web App (Recommended)
+
 
 ```bash
 streamlit run app/app.py
@@ -663,7 +667,7 @@ export_chat_to_pdf(messages: List[dict]) -> BytesIO
 - [ ] Allow switching LLM models from the sidebar (GPT-4, Claude, Mistral, etc.)
 - [ ] Add conversation memory so the LLM remembers previous questions
 - [ ] Support uploading other file types (DOCX, TXT, CSV)
-- [ ] Deploy on Streamlit Community Cloud
+- [x] Deploy on Streamlit Community Cloud
 - [ ] Add a "which page does this come from?" source attribution toggle
 
 ---
